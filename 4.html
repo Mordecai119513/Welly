@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function ConditionalRendering({ isLoggedIn }) {
+  return (
+    <div>
+      {isLoggedIn ? <div>歡迎回來</div> : <div>請登入</div>}
+    </div>
+  );
+}
+// 我這邊適用三元運算符來實現登入狀況的條件渲染
+</script>
+</html>
